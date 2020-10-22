@@ -4,12 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/rippleActivityView"
+    <Button
+        android:id="@+id/rippleActivityBtn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/colorAccent"
         android:gravity="center"
-        android:text="仿网易云音乐波纹效果" />
+        android:text="仿网易云音乐粒子扩散效果" />
 
+    <Button
+        android:id="@+id/viewAnimateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="视图动画" />
+
+    <Button
+        android:id="@+id/propertyAnimateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="视图动画" />
 </LinearLayout>
