@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ViewAnimateActivity::class.java))
         }
 
-        viewAnimateBtn.setOnClickListener {
+        propertyAnimateBtn.setOnClickListener {
             startActivity(Intent(this, PropertyAnimateActivity::class.java))
         }
     }

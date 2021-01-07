@@ -2,6 +2,7 @@ package com.dr.learndemo.simulateNetEaseCloudMusic.ui
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.animation.LinearInterpolator
 import androidx.appcompat.app.AppCompatActivity
@@ -26,7 +27,20 @@ class RippleActivity : AppCompatActivity() {
         rotateAnimation.interpolator = LinearInterpolator()
 
         music_center.setOnClickListener {
-            rotateAnimation.start()
+            when {
+                rotateAnimation.isPaused -> {
+                    Log.d("zjr", "isPaused")
+                    rotateAnimation.resume()
+                }
+                rotateAnimation.isRunning -> {
+                    Log.d("zjr", "isRunning")
+                    rotateAnimation.pause()
+                }
+                else -> {
+                    Log.d("zjr", "else")
+                    rotateAnimation.start()
+                }
+            }
         }
     }
 }
