@@ -1,4 +1,4 @@
-package com.dr.learndemo
+package com.max.loan
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

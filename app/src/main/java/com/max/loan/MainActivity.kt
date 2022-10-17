@@ -1,11 +1,12 @@
-package com.dr.learndemo
+package com.max.loan
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.dr.learndemo.animate.PropertyAnimateActivity
-import com.dr.learndemo.animate.ViewAnimateActivity
-import com.dr.learndemo.simulateNetEaseCloudMusic.ui.RippleActivity
+import com.max.loan.animate.PropertyAnimateActivity
+import com.max.loan.animate.ViewAnimateActivity
+import com.max.loan.simulateNetEaseCloudMusic.ui.RippleActivity
+import com.max.loan.wanandroid.ArticleActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
 
         propertyAnimateBtn.setOnClickListener {
             startActivity(Intent(this, PropertyAnimateActivity::class.java))
+        }
+
+        articleList.setOnClickListener {
+            startActivity(Intent(this, ArticleActivity::class.java))
         }
     }
 

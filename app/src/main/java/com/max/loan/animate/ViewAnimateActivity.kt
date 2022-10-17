@@ -1,10 +1,10 @@
-package com.dr.learndemo.animate
+package com.max.loan.animate
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.animation.*
 import androidx.appcompat.app.AppCompatActivity
-import com.dr.learndemo.R
+import com.max.loan.R
 import kotlinx.android.synthetic.main.activity_view_animate.*
 
 class ViewAnimateActivity : AppCompatActivity() {

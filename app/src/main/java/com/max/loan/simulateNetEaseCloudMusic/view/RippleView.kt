@@ -1,4 +1,4 @@
-package com.dr.learndemo.simulateNetEaseCloudMusic.view
+package com.max.loan.simulateNetEaseCloudMusic.view
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -6,7 +6,7 @@ import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 import android.view.animation.LinearInterpolator
-import com.dr.learndemo.simulateNetEaseCloudMusic.bean.Particle
+import com.max.loan.simulateNetEaseCloudMusic.bean.Particle
 import kotlin.math.acos
 import kotlin.math.cos
 import kotlin.math.sin

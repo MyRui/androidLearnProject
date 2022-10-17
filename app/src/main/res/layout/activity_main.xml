@@ -24,4 +24,12 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:text="视图动画" />
+
+    <Button
+        android:id="@+id/articleList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="文章列表"
+        android:textAllCaps="false" />
 </LinearLayout>

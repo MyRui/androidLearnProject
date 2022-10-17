@@ -1,4 +1,4 @@
-package com.dr.learndemo.simulateNetEaseCloudMusic.bean
+package com.max.loan.simulateNetEaseCloudMusic.bean
 
 class Particle(
     var x: Float,

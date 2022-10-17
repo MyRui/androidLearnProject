@@ -1,11 +1,11 @@
-package com.dr.learndemo.animate
+package com.max.loan.animate
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.dr.learndemo.R
+import com.max.loan.R
 import kotlinx.android.synthetic.main.activity_property_animate.*
 
 //https://juejin.im/post/6846687601118691341
