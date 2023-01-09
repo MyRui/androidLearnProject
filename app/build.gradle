@@ -7,11 +7,11 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.maxloan.oyer.cash.plenty"
+        applicationId "in.smartrupee.tap.cash.sunny"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
