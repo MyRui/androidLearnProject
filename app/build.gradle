@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "in.smartrupee.tap.cash.sunny"
+        applicationId "com.sunnycash.gushbright"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
